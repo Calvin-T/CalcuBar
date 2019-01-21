@@ -13,6 +13,7 @@
 		3762C75A21F42FA500DB54D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3762C75821F42FA500DB54D9 /* Main.storyboard */; };
 		3762C75C21F42FA600DB54D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3762C75B21F42FA600DB54D9 /* Assets.xcassets */; };
 		3762C75F21F42FA600DB54D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3762C75D21F42FA600DB54D9 /* LaunchScreen.storyboard */; };
+		37BF600D21F5638100672CA9 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BF600C21F5638100672CA9 /* RoundedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3762C75B21F42FA600DB54D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3762C75E21F42FA600DB54D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3762C76021F42FA600DB54D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37BF600C21F5638100672CA9 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,14 +59,39 @@
 			isa = PBXGroup;
 			children = (
 				3762C75221F42FA500DB54D9 /* AppDelegate.swift */,
-				3762C75421F42FA500DB54D9 /* FirstViewController.swift */,
-				3762C75621F42FA500DB54D9 /* SecondViewController.swift */,
-				3762C75821F42FA500DB54D9 /* Main.storyboard */,
+				37BF600721F5632B00672CA9 /* Model */,
+				37BF600B21F5634A00672CA9 /* View */,
+				37BF600921F5634000672CA9 /* Controller */,
 				3762C75B21F42FA600DB54D9 /* Assets.xcassets */,
-				3762C75D21F42FA600DB54D9 /* LaunchScreen.storyboard */,
 				3762C76021F42FA600DB54D9 /* Info.plist */,
 			);
 			path = CalcuBar;
+			sourceTree = "<group>";
+		};
+		37BF600721F5632B00672CA9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				37BF600C21F5638100672CA9 /* RoundedButton.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		37BF600921F5634000672CA9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3762C75421F42FA500DB54D9 /* FirstViewController.swift */,
+				3762C75621F42FA500DB54D9 /* SecondViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		37BF600B21F5634A00672CA9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3762C75821F42FA500DB54D9 /* Main.storyboard */,
+				3762C75D21F42FA600DB54D9 /* LaunchScreen.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +168,7 @@
 				3762C75721F42FA500DB54D9 /* SecondViewController.swift in Sources */,
 				3762C75321F42FA500DB54D9 /* AppDelegate.swift in Sources */,
 				3762C75521F42FA500DB54D9 /* FirstViewController.swift in Sources */,
+				37BF600D21F5638100672CA9 /* RoundedButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
