@@ -56,13 +56,14 @@ class RoundedButton: UIButton {
         }
     }
     
-    @IBInspectable override open var backgroundColor: UIColor? {
-        set {
-            layer.backgroundColor = UIColor(red: 220/255, green: 220/255, blue: 220/255, alpha: 1).cgColor
-        } get {
-            return UIColor(red: 220/255, green: 220/255, blue: 220/255, alpha: 1)
-        }
-    }
+//    @IBInspectable override open var backgroundColor: UIColor? {
+//        set {
+//            layer.backgroundColor = UIColor(red: 112/255, green: 215/255, blue: 220/255, alpha: 1).cgColor
+//            
+//        } get {
+//            return UIColor(red: 22/255, green: 22/255, blue: 220/255, alpha: 1)
+//        }
+//    }
     
 }
 
