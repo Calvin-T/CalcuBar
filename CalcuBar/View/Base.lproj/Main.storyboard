@@ -604,26 +604,47 @@
                                                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MBe-LD-0lF">
                                                                 <rect key="frame" x="0.0" y="1" width="124" height="100"/>
                                                                 <subviews>
-                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="55LB Side" translatesAutoresizingMaskIntoConstraints="NO" id="mUd-dW-ho5">
+                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mUd-dW-ho5" userLabel="plate7">
                                                                         <rect key="frame" x="0.0" y="0.0" width="16" height="100"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" constant="16" id="2Rw-Qz-Tvs"/>
+                                                                        </constraints>
                                                                     </imageView>
-                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="55LB Side" translatesAutoresizingMaskIntoConstraints="NO" id="Cnl-QN-jMI">
+                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Cnl-QN-jMI" userLabel="plate6">
                                                                         <rect key="frame" x="16" y="0.0" width="16" height="100"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" constant="16" id="Zla-GJ-WSz"/>
+                                                                        </constraints>
                                                                     </imageView>
-                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="55LB Side" translatesAutoresizingMaskIntoConstraints="NO" id="ss4-gb-RJX">
+                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ss4-gb-RJX" userLabel="plate5">
                                                                         <rect key="frame" x="32" y="0.0" width="16" height="100"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" constant="16" id="Rsq-UX-6Z1"/>
+                                                                        </constraints>
                                                                     </imageView>
-                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="55LB Side" translatesAutoresizingMaskIntoConstraints="NO" id="7th-Me-nhC">
+                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7th-Me-nhC" userLabel="plate4">
                                                                         <rect key="frame" x="48" y="0.0" width="16" height="100"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" constant="16" id="kw9-7S-fnn"/>
+                                                                        </constraints>
                                                                     </imageView>
-                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="55LB Side" translatesAutoresizingMaskIntoConstraints="NO" id="9Sl-I0-e1d">
+                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9Sl-I0-e1d" userLabel="plate3">
                                                                         <rect key="frame" x="64" y="0.0" width="16" height="100"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" constant="16" id="Eb7-mJ-zOR"/>
+                                                                        </constraints>
                                                                     </imageView>
-                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="55LB Side" translatesAutoresizingMaskIntoConstraints="NO" id="1da-dR-XiA">
+                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1da-dR-XiA" userLabel="plate2">
                                                                         <rect key="frame" x="80" y="0.0" width="16" height="100"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" constant="16" id="UjQ-Ff-fbZ"/>
+                                                                        </constraints>
                                                                     </imageView>
-                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="55LB Side" translatesAutoresizingMaskIntoConstraints="NO" id="54R-CQ-cXJ">
+                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="54R-CQ-cXJ" userLabel="plate1">
                                                                         <rect key="frame" x="96" y="0.0" width="16" height="100"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" constant="16" id="0z8-pS-ByN"/>
+                                                                        </constraints>
                                                                     </imageView>
                                                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Peg" translatesAutoresizingMaskIntoConstraints="NO" id="PvI-PJ-cdw">
                                                                         <rect key="frame" x="112" y="0.0" width="12" height="100"/>
@@ -647,26 +668,47 @@
                                                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Peg" translatesAutoresizingMaskIntoConstraints="NO" id="gtY-ne-MIl">
                                                                         <rect key="frame" x="0.0" y="0.0" width="12" height="100"/>
                                                                     </imageView>
-                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="55LB Side" translatesAutoresizingMaskIntoConstraints="NO" id="RqK-jB-8BE">
+                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RqK-jB-8BE" userLabel="plate1">
                                                                         <rect key="frame" x="12" y="0.0" width="16" height="100"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" constant="16" id="GhB-iX-kCc"/>
+                                                                        </constraints>
                                                                     </imageView>
-                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="55LB Side" translatesAutoresizingMaskIntoConstraints="NO" id="ZDb-HW-leR">
+                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZDb-HW-leR" userLabel="plate2">
                                                                         <rect key="frame" x="28" y="0.0" width="16" height="100"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" constant="16" id="Tu2-Cg-ri7"/>
+                                                                        </constraints>
                                                                     </imageView>
-                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="55LB Side" translatesAutoresizingMaskIntoConstraints="NO" id="8kv-iv-U6O">
+                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8kv-iv-U6O" userLabel="plate3">
                                                                         <rect key="frame" x="44" y="0.0" width="16" height="100"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" constant="16" id="CUx-px-j5Y"/>
+                                                                        </constraints>
                                                                     </imageView>
-                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="55LB Side" translatesAutoresizingMaskIntoConstraints="NO" id="DFe-KH-apb">
+                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DFe-KH-apb" userLabel="plate4">
                                                                         <rect key="frame" x="60" y="0.0" width="16" height="100"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" constant="16" id="DjW-1h-JTV"/>
+                                                                        </constraints>
                                                                     </imageView>
-                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="55LB Side" translatesAutoresizingMaskIntoConstraints="NO" id="b9r-px-nh3">
+                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="b9r-px-nh3" userLabel="plate5">
                                                                         <rect key="frame" x="76" y="0.0" width="16" height="100"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" constant="16" id="2gu-h0-egW"/>
+                                                                        </constraints>
                                                                     </imageView>
-                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="55LB Side" translatesAutoresizingMaskIntoConstraints="NO" id="eN6-aL-y3G">
+                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eN6-aL-y3G" userLabel="plate6">
                                                                         <rect key="frame" x="92" y="0.0" width="16" height="100"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" constant="16" id="DpH-0Z-5GJ"/>
+                                                                        </constraints>
                                                                     </imageView>
-                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="55LB Side" translatesAutoresizingMaskIntoConstraints="NO" id="kDe-Do-2pQ">
+                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kDe-Do-2pQ" userLabel="plate7">
                                                                         <rect key="frame" x="108" y="0.0" width="16" height="100"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" constant="16" id="igw-nQ-lJQ"/>
+                                                                        </constraints>
                                                                     </imageView>
                                                                 </subviews>
                                                             </stackView>
@@ -678,65 +720,27 @@
                                                             <constraint firstItem="4lw-EW-Ier" firstAttribute="leading" secondItem="TLH-FJ-jss" secondAttribute="leading" id="aTI-Ug-3Kp"/>
                                                         </constraints>
                                                     </view>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NDY-Kl-igo">
-                                                        <rect key="frame" x="158" y="40" width="43.5" height="43.5"/>
-                                                        <attributedString key="attributedText">
-                                                            <fragment content="225">
-                                                                <attributes>
-                                                                    <font key="NSFont" size="26" name=".SFNSText"/>
-                                                                    <font key="NSOriginalFont" size="26" name=".SFNSText"/>
-                                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                                </attributes>
-                                                            </fragment>
-                                                            <fragment content=" ">
-                                                                <attributes>
-                                                                    <font key="NSFont" size="26" name=".AppleSystemUIFont"/>
-                                                                    <font key="NSOriginalFont" size="26" name=".AppleSystemUIFont"/>
-                                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                                </attributes>
-                                                            </fragment>
-                                                            <fragment content="LBS">
-                                                                <attributes>
-                                                                    <font key="NSFont" size="11" name=".SFNSText"/>
-                                                                    <font key="NSOriginalFont" size="11" name=".SFNSText"/>
-                                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                                </attributes>
-                                                            </fragment>
-                                                        </attributedString>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20.0 KG" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NDY-Kl-igo">
+                                                        <rect key="frame" x="160" y="40" width="39" height="47"/>
+                                                        <fontDescription key="fontDescription" name=".SFNSText" family=".SF NS Text" pointSize="20"/>
+                                                        <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9So-zx-E3v">
-                                                        <rect key="frame" x="158" y="98.5" width="43.5" height="43.5"/>
-                                                        <attributedString key="attributedText">
-                                                            <fragment content="100">
-                                                                <attributes>
-                                                                    <font key="NSFont" size="26" name=".SFNSText"/>
-                                                                    <font key="NSOriginalFont" size="26" name=".SFNSText"/>
-                                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                                </attributes>
-                                                            </fragment>
-                                                            <fragment content=" ">
-                                                                <attributes>
-                                                                    <font key="NSFont" size="26" name=".AppleSystemUIFont"/>
-                                                                    <font key="NSOriginalFont" size="26" name=".AppleSystemUIFont"/>
-                                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                                </attributes>
-                                                            </fragment>
-                                                            <fragment content="KG">
-                                                                <attributes>
-                                                                    <font key="NSFont" size="11" name=".SFNSText"/>
-                                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                                </attributes>
-                                                            </fragment>
-                                                        </attributedString>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="44.1 LBS" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9So-zx-E3v">
+                                                        <rect key="frame" x="164" y="104.5" width="31.5" height="37.5"/>
+                                                        <fontDescription key="fontDescription" name=".SFNSText" family=".SF NS Text" pointSize="16"/>
+                                                        <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="1" translatesAutoresizingMaskIntoConstraints="NO" id="Oh2-cr-dsJ">
+                                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Oh2-cr-dsJ">
                                                         <rect key="frame" x="141" y="146" width="77" height="29"/>
                                                         <segments>
                                                             <segment title="KG"/>
                                                             <segment title="LBS"/>
                                                         </segments>
+                                                        <connections>
+                                                            <action selector="unitChanged:" destination="8rJ-Kc-sve" eventType="valueChanged" id="o77-Ok-8xN"/>
+                                                        </connections>
                                                     </segmentedControl>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -773,25 +777,43 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="NjO-mt-JJb" userLabel="CalculatorView">
                                         <rect key="frame" x="0.0" y="182" width="375" height="364"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RGF-av-XTO">
-                                                <rect key="frame" x="8" y="0.0" width="359" height="46"/>
-                                                <color key="backgroundColor" red="0.43852877940000001" green="0.8365917075" blue="0.8634538651" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
-                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" |  kg" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F3a-1H-55F" customClass="CalculatorLabel" customModule="CalcuBar" customModuleProvider="target">
+                                                <rect key="frame" x="8" y="0.0" width="359" height="43"/>
+                                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name=".SFNSText" family=".SF NS Text" pointSize="20"/>
+                                                <color key="textColor" red="0.43852877940000001" green="0.8365917075" blue="0.8634538651" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="leftInset">
+                                                        <real key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="rightInset">
+                                                        <real key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="2"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="3"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="bp4-Ju-g5n" userLabel="BigStack">
-                                                <rect key="frame" x="8" y="56" width="359" height="308"/>
+                                                <rect key="frame" x="8" y="53" width="359" height="311"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="C71-uy-tcI" userLabel="NumPadStack">
-                                                        <rect key="frame" x="0.0" y="0.0" width="262" height="308"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="262" height="311"/>
                                                         <subviews>
-                                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="pMt-sy-jtR">
-                                                                <rect key="frame" x="0.0" y="0.0" width="262" height="69.5"/>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="pMt-sy-jtR" userLabel="TopRow">
+                                                                <rect key="frame" x="0.0" y="0.0" width="262" height="70"/>
                                                                 <subviews>
-                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nxH-Jb-Ytb" customClass="RoundedButton" customModule="CalcuBar">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="80.5" height="69.5"/>
+                                                                    <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nxH-Jb-Ytb" customClass="RoundedButton" customModule="CalcuBar">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="80.5" height="70"/>
                                                                         <color key="backgroundColor" red="0.43852877940000001" green="0.8365917075" blue="0.8634538651" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                                         <state key="normal" title="7">
                                                                             <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         </state>
@@ -806,10 +828,14 @@
                                                                                 <real key="value" value="3"/>
                                                                             </userDefinedRuntimeAttribute>
                                                                         </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <action selector="numPadPressed:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="aBf-2Z-has"/>
+                                                                        </connections>
                                                                     </button>
-                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KUQ-A6-a8C" customClass="RoundedButton" customModule="CalcuBar">
-                                                                        <rect key="frame" x="90.5" y="0.0" width="80.5" height="69.5"/>
+                                                                    <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KUQ-A6-a8C" customClass="RoundedButton" customModule="CalcuBar">
+                                                                        <rect key="frame" x="90.5" y="0.0" width="80.5" height="70"/>
                                                                         <color key="backgroundColor" red="0.43852877940000001" green="0.8365917075" blue="0.8634538651" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                                         <state key="normal" title="8">
                                                                             <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         </state>
@@ -824,10 +850,14 @@
                                                                                 <real key="value" value="3"/>
                                                                             </userDefinedRuntimeAttribute>
                                                                         </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <action selector="numPadPressed:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="V0a-Wu-CaB"/>
+                                                                        </connections>
                                                                     </button>
-                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZtH-Ow-Es1" customClass="RoundedButton" customModule="CalcuBar">
-                                                                        <rect key="frame" x="181" y="0.0" width="81" height="69.5"/>
+                                                                    <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZtH-Ow-Es1" customClass="RoundedButton" customModule="CalcuBar">
+                                                                        <rect key="frame" x="181" y="0.0" width="81" height="70"/>
                                                                         <color key="backgroundColor" red="0.43852877940000001" green="0.8365917075" blue="0.8634538651" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                                         <state key="normal" title="9">
                                                                             <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         </state>
@@ -842,15 +872,19 @@
                                                                                 <real key="value" value="3"/>
                                                                             </userDefinedRuntimeAttribute>
                                                                         </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <action selector="numPadPressed:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="AO2-xi-UIi"/>
+                                                                        </connections>
                                                                     </button>
                                                                 </subviews>
                                                             </stackView>
-                                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="SL9-Ll-70i">
-                                                                <rect key="frame" x="0.0" y="79.5" width="262" height="69.5"/>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="SL9-Ll-70i" userLabel="TopMiddle">
+                                                                <rect key="frame" x="0.0" y="80" width="262" height="70.5"/>
                                                                 <subviews>
-                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Ii-n1-lgp" customClass="RoundedButton" customModule="CalcuBar">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="80.5" height="69.5"/>
+                                                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Ii-n1-lgp" customClass="RoundedButton" customModule="CalcuBar">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="80.5" height="70.5"/>
                                                                         <color key="backgroundColor" red="0.43852877940000001" green="0.8365917075" blue="0.8634538651" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                                         <state key="normal" title="4">
                                                                             <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         </state>
@@ -865,10 +899,14 @@
                                                                                 <real key="value" value="3"/>
                                                                             </userDefinedRuntimeAttribute>
                                                                         </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <action selector="numPadPressed:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="W06-I1-wME"/>
+                                                                        </connections>
                                                                     </button>
-                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9k7-e3-qEP" customClass="RoundedButton" customModule="CalcuBar">
-                                                                        <rect key="frame" x="90.5" y="0.0" width="80.5" height="69.5"/>
+                                                                    <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9k7-e3-qEP" customClass="RoundedButton" customModule="CalcuBar">
+                                                                        <rect key="frame" x="90.5" y="0.0" width="80.5" height="70.5"/>
                                                                         <color key="backgroundColor" red="0.43852877940000001" green="0.8365917075" blue="0.8634538651" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                                         <state key="normal" title="5">
                                                                             <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         </state>
@@ -883,10 +921,14 @@
                                                                                 <real key="value" value="3"/>
                                                                             </userDefinedRuntimeAttribute>
                                                                         </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <action selector="numPadPressed:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="GeQ-2f-UTX"/>
+                                                                        </connections>
                                                                     </button>
-                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9kv-TX-Dg0" customClass="RoundedButton" customModule="CalcuBar">
-                                                                        <rect key="frame" x="181" y="0.0" width="81" height="69.5"/>
+                                                                    <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9kv-TX-Dg0" customClass="RoundedButton" customModule="CalcuBar">
+                                                                        <rect key="frame" x="181" y="0.0" width="81" height="70.5"/>
                                                                         <color key="backgroundColor" red="0.43852877940000001" green="0.8365917075" blue="0.8634538651" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                                         <state key="normal" title="6">
                                                                             <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         </state>
@@ -901,15 +943,19 @@
                                                                                 <real key="value" value="3"/>
                                                                             </userDefinedRuntimeAttribute>
                                                                         </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <action selector="numPadPressed:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="vYX-tk-viX"/>
+                                                                        </connections>
                                                                     </button>
                                                                 </subviews>
                                                             </stackView>
-                                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="QdN-4R-Jks">
-                                                                <rect key="frame" x="0.0" y="159" width="262" height="69.5"/>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="QdN-4R-Jks" userLabel="BottomMiddle">
+                                                                <rect key="frame" x="0.0" y="160.5" width="262" height="70"/>
                                                                 <subviews>
-                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KAh-1x-1og" customClass="RoundedButton" customModule="CalcuBar">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="80.5" height="69.5"/>
+                                                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KAh-1x-1og" customClass="RoundedButton" customModule="CalcuBar">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="80.5" height="70"/>
                                                                         <color key="backgroundColor" red="0.43852877940000001" green="0.8365917075" blue="0.8634538651" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                                         <state key="normal" title="1">
                                                                             <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         </state>
@@ -924,10 +970,14 @@
                                                                                 <real key="value" value="3"/>
                                                                             </userDefinedRuntimeAttribute>
                                                                         </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <action selector="numPadPressed:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="qVk-ER-l3c"/>
+                                                                        </connections>
                                                                     </button>
-                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lEz-UQ-gfe" customClass="RoundedButton" customModule="CalcuBar">
-                                                                        <rect key="frame" x="90.5" y="0.0" width="80.5" height="69.5"/>
+                                                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lEz-UQ-gfe" customClass="RoundedButton" customModule="CalcuBar">
+                                                                        <rect key="frame" x="90.5" y="0.0" width="80.5" height="70"/>
                                                                         <color key="backgroundColor" red="0.43852877940000001" green="0.8365917075" blue="0.8634538651" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                                         <state key="normal" title="2">
                                                                             <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         </state>
@@ -942,10 +992,14 @@
                                                                                 <real key="value" value="3"/>
                                                                             </userDefinedRuntimeAttribute>
                                                                         </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <action selector="numPadPressed:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="PPy-JX-Fwi"/>
+                                                                        </connections>
                                                                     </button>
-                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9EM-IY-c4n" customClass="RoundedButton" customModule="CalcuBar">
-                                                                        <rect key="frame" x="181" y="0.0" width="81" height="69.5"/>
+                                                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9EM-IY-c4n" customClass="RoundedButton" customModule="CalcuBar">
+                                                                        <rect key="frame" x="181" y="0.0" width="81" height="70"/>
                                                                         <color key="backgroundColor" red="0.43852877940000001" green="0.8365917075" blue="0.8634538651" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                                         <state key="normal" title="3">
                                                                             <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         </state>
@@ -960,15 +1014,19 @@
                                                                                 <real key="value" value="3"/>
                                                                             </userDefinedRuntimeAttribute>
                                                                         </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <action selector="numPadPressed:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="05L-1i-jrs"/>
+                                                                        </connections>
                                                                     </button>
                                                                 </subviews>
                                                             </stackView>
-                                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="cs0-LO-GXg">
-                                                                <rect key="frame" x="0.0" y="238.5" width="262" height="69.5"/>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="cs0-LO-GXg" userLabel="BottomRow">
+                                                                <rect key="frame" x="0.0" y="240.5" width="262" height="70.5"/>
                                                                 <subviews>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nOq-Fa-Jjk" customClass="RoundedButton" customModule="CalcuBar">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="168" height="69.5"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="168" height="70.5"/>
                                                                         <color key="backgroundColor" red="0.43852877940000001" green="0.8365917075" blue="0.8634538651" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="-1" maxX="0.0" maxY="0.0"/>
                                                                         <state key="normal" title="0">
                                                                             <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -984,10 +1042,14 @@
                                                                                 <real key="value" value="3"/>
                                                                             </userDefinedRuntimeAttribute>
                                                                         </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <action selector="numPadPressed:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="0ot-6b-Ay0"/>
+                                                                        </connections>
                                                                     </button>
-                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7mk-mv-x5x" customClass="RoundedButton" customModule="CalcuBar">
-                                                                        <rect key="frame" x="178" y="0.0" width="84" height="69.5"/>
+                                                                    <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7mk-mv-x5x" customClass="RoundedButton" customModule="CalcuBar">
+                                                                        <rect key="frame" x="178" y="0.0" width="84" height="70.5"/>
                                                                         <color key="backgroundColor" red="0.43852877940000001" green="0.8365917075" blue="0.8634538651" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                                         <state key="normal" title=".">
                                                                             <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         </state>
@@ -1002,6 +1064,9 @@
                                                                                 <real key="value" value="3"/>
                                                                             </userDefinedRuntimeAttribute>
                                                                         </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <action selector="numPadPressed:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="NUN-aU-QYb"/>
+                                                                        </connections>
                                                                     </button>
                                                                 </subviews>
                                                                 <constraints>
@@ -1011,10 +1076,32 @@
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="hgo-p9-gqF" userLabel="BigButtons">
-                                                        <rect key="frame" x="272" y="0.0" width="87" height="308"/>
+                                                        <rect key="frame" x="272" y="0.0" width="87" height="311"/>
                                                         <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ubV-xc-aK8" customClass="RoundedButton" customModule="CalcuBar" customModuleProvider="target">
+                                                                <rect key="frame" x="0.0" y="0.0" width="87" height="97"/>
+                                                                <color key="backgroundColor" red="0.36470588240000001" green="0.63529411759999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <state key="normal" title="Clear">
+                                                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </state>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                        <real key="value" value="2"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                        <color key="value" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                        <real key="value" value="3"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                </userDefinedRuntimeAttributes>
+                                                                <connections>
+                                                                    <action selector="clearPressed:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="uvC-bz-BSK"/>
+                                                                </connections>
+                                                            </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ehp-rh-Dfd" customClass="RoundedButton" customModule="CalcuBar">
-                                                                <rect key="frame" x="0.0" y="0.0" width="87" height="149"/>
+                                                                <rect key="frame" x="0.0" y="107" width="87" height="97"/>
                                                                 <color key="backgroundColor" red="0.36470588235294116" green="0.63529411764705879" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                                 <state key="normal" title="⬅︎">
@@ -1031,9 +1118,12 @@
                                                                         <real key="value" value="3"/>
                                                                     </userDefinedRuntimeAttribute>
                                                                 </userDefinedRuntimeAttributes>
+                                                                <connections>
+                                                                    <action selector="backspacePressed:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="9dk-i1-bjR"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iEq-fO-pI3" customClass="RoundedButton" customModule="CalcuBar">
-                                                                <rect key="frame" x="0.0" y="159" width="87" height="149"/>
+                                                                <rect key="frame" x="0.0" y="214" width="87" height="97"/>
                                                                 <color key="backgroundColor" red="0.36470588235294116" green="0.63529411764705879" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <state key="normal" title="Calculate">
@@ -1050,8 +1140,15 @@
                                                                         <real key="value" value="3"/>
                                                                     </userDefinedRuntimeAttribute>
                                                                 </userDefinedRuntimeAttributes>
+                                                                <connections>
+                                                                    <action selector="calculate:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="mJa-ye-4AL"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
+                                                        <constraints>
+                                                            <constraint firstItem="iEq-fO-pI3" firstAttribute="height" secondItem="ehp-rh-Dfd" secondAttribute="height" id="WpS-I2-1Xd"/>
+                                                            <constraint firstItem="ehp-rh-Dfd" firstAttribute="height" secondItem="ubV-xc-aK8" secondAttribute="height" id="pG3-0l-rvb"/>
+                                                        </constraints>
                                                     </stackView>
                                                 </subviews>
                                                 <constraints>
@@ -1064,11 +1161,10 @@
                                             </stackView>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstItem="RGF-av-XTO" firstAttribute="height" secondItem="bp4-Ju-g5n" secondAttribute="height" multiplier="0.15" id="2gk-J9-JeK"/>
-                                            <constraint firstItem="RGF-av-XTO" firstAttribute="leading" secondItem="NjO-mt-JJb" secondAttribute="leading" constant="8" id="4uU-TP-Rkg"/>
+                                            <constraint firstAttribute="trailing" secondItem="F3a-1H-55F" secondAttribute="trailing" constant="8" id="4VC-Ar-VjT"/>
                                             <constraint firstAttribute="trailing" secondItem="bp4-Ju-g5n" secondAttribute="trailing" constant="8" id="5Vl-k0-og5"/>
+                                            <constraint firstItem="F3a-1H-55F" firstAttribute="leading" secondItem="NjO-mt-JJb" secondAttribute="leading" constant="8" id="bDq-4V-olw"/>
                                             <constraint firstAttribute="bottom" secondItem="bp4-Ju-g5n" secondAttribute="bottom" id="vqV-fq-368"/>
-                                            <constraint firstAttribute="trailing" secondItem="RGF-av-XTO" secondAttribute="trailing" constant="8" id="xcV-5k-pUc"/>
                                             <constraint firstItem="bp4-Ju-g5n" firstAttribute="leading" secondItem="NjO-mt-JJb" secondAttribute="leading" constant="8" id="z29-Do-TYa"/>
                                         </constraints>
                                     </stackView>
@@ -1088,6 +1184,26 @@
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
                     <navigationItem key="navigationItem" title="Fill" id="NOh-Wy-hVs"/>
+                    <connections>
+                        <outlet property="convertedWeightLabel" destination="9So-zx-E3v" id="c7X-qC-2f3"/>
+                        <outlet property="inputTextField" destination="F3a-1H-55F" id="cI5-Ww-Edg"/>
+                        <outlet property="totalWeightLabel" destination="NDY-Kl-igo" id="O4u-cE-Qwc"/>
+                        <outlet property="unitSelector" destination="Oh2-cr-dsJ" id="heS-v8-2sO"/>
+                        <outletCollection property="firstSetSide" destination="RqK-jB-8BE" collectionClass="NSMutableArray" id="KgE-5R-zkL"/>
+                        <outletCollection property="firstSetSide" destination="54R-CQ-cXJ" collectionClass="NSMutableArray" id="rUg-KH-8iq"/>
+                        <outletCollection property="secondSetSide" destination="ZDb-HW-leR" collectionClass="NSMutableArray" id="UPn-8n-Zjd"/>
+                        <outletCollection property="secondSetSide" destination="1da-dR-XiA" collectionClass="NSMutableArray" id="ucF-zi-W4M"/>
+                        <outletCollection property="thirdSetSide" destination="8kv-iv-U6O" collectionClass="NSMutableArray" id="X9H-6O-fYI"/>
+                        <outletCollection property="fourthSetSide" destination="DFe-KH-apb" collectionClass="NSMutableArray" id="IOV-2W-KWD"/>
+                        <outletCollection property="fifthSetSide" destination="b9r-px-nh3" collectionClass="NSMutableArray" id="Ipv-aj-SAc"/>
+                        <outletCollection property="sixthSetSide" destination="eN6-aL-y3G" collectionClass="NSMutableArray" id="iS8-1A-h8e"/>
+                        <outletCollection property="seventhSetSide" destination="kDe-Do-2pQ" collectionClass="NSMutableArray" id="W0T-8X-3BA"/>
+                        <outletCollection property="thirdSetSide" destination="9Sl-I0-e1d" collectionClass="NSMutableArray" id="cUK-0y-XNU"/>
+                        <outletCollection property="fourthSetSide" destination="7th-Me-nhC" collectionClass="NSMutableArray" id="mFg-TL-1oU"/>
+                        <outletCollection property="fifthSetSide" destination="ss4-gb-RJX" collectionClass="NSMutableArray" id="Kgt-hQ-McU"/>
+                        <outletCollection property="sixthSetSide" destination="Cnl-QN-jMI" collectionClass="NSMutableArray" id="FRj-Ks-lex"/>
+                        <outletCollection property="seventhSetSide" destination="mUd-dW-ho5" collectionClass="NSMutableArray" id="qnP-74-CqC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
@@ -1160,7 +1276,6 @@
         <image name="20KG Plate" width="93" height="92"/>
         <image name="25KG Plate" width="92" height="92"/>
         <image name="2KG Plate" width="71" height="70"/>
-        <image name="55LB Side" width="16" height="100"/>
         <image name="5KG Plate" width="70" height="70"/>
         <image name="Bar" width="411" height="14"/>
         <image name="Peg" width="12" height="47"/>

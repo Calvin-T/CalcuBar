@@ -8,12 +8,12 @@
 
 import UIKit
 
+enum units {
+    case kg
+    case lbs
+}
+
 class FirstViewController: UIViewController {
-    
-    enum units {
-        case kg
-        case lbs
-    }
     
     @IBOutlet var weightButtons: [RoundedButton]!
     
@@ -51,7 +51,6 @@ class FirstViewController: UIViewController {
     }
 
     @IBAction func unitChanged(_ sender: Any) {
-        print(unitSelector.selectedSegmentIndex)
         if unitSelector.selectedSegmentIndex == 0 {
             for i in 0..<weightButtons.count {
                 if i == 5 || i == 7 || i == 9 {
@@ -111,7 +110,7 @@ class FirstViewController: UIViewController {
         weightsUsed.append(value)
         weightsUsed.sort(by: >)
         barSorted()
-        print(weightsUsed)
+        //print(weightsUsed)
         //updateBarImage(withWeight: value)
     }
     
@@ -170,7 +169,7 @@ class FirstViewController: UIViewController {
                 totalWeightLabel.text = "\(totalWeight)\nKG"
                 convertedWeightLabel.text = "\(convertedWeight)\nLBS"
             } else {
-                print(sender.tag)
+                //print(sender.tag)
                 switch sender.tag {
                 case 0:
                     calculatePlate(value: 55)
@@ -195,10 +194,10 @@ class FirstViewController: UIViewController {
                 convertedWeightLabel.text = "\(convertedWeight)\nKG"
             }
             platesLoaded += 1
-            print("Plates: \(platesLoaded)")
+            //print("Plates: \(platesLoaded)")
             
         } else {
-            print("bar full")
+            //print("bar full")
         }
     }
     
@@ -257,12 +256,15 @@ class FirstViewController: UIViewController {
         }
     }
     
+}
+
+extension UIViewController {
+    
     func convertToKG(lb: Double) -> Double {
         return Double(round(lb * 0.453592 * 10)/10)
     }
     
     func convertToLBS(kg: Double) -> Double {
-        return Double(round(totalWeight * 2.2046 * 10)/10)
+        return Double(round(kg * 2.2046 * 10)/10)
     }
-    
 }
