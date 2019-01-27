@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37304A2921FD0BA200D9C5F0 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37304A2721FD0BA200D9C5F0 /* SettingsTableViewController.swift */; };
 		3762C75321F42FA500DB54D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3762C75221F42FA500DB54D9 /* AppDelegate.swift */; };
 		3762C75521F42FA500DB54D9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3762C75421F42FA500DB54D9 /* FirstViewController.swift */; };
 		3762C75721F42FA500DB54D9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3762C75621F42FA500DB54D9 /* SecondViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		37304A2721FD0BA200D9C5F0 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 		3762C74F21F42FA500DB54D9 /* CalcuBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalcuBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3762C75221F42FA500DB54D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3762C75421F42FA500DB54D9 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 			children = (
 				3762C75421F42FA500DB54D9 /* FirstViewController.swift */,
 				3762C75621F42FA500DB54D9 /* SecondViewController.swift */,
+				37304A2721FD0BA200D9C5F0 /* SettingsTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37304A2921FD0BA200D9C5F0 /* SettingsTableViewController.swift in Sources */,
 				3762C75721F42FA500DB54D9 /* SecondViewController.swift in Sources */,
 				378B56E421FCCB8800CB07CA /* CalculatorLabel.swift in Sources */,
 				3762C75321F42FA500DB54D9 /* AppDelegate.swift in Sources */,
