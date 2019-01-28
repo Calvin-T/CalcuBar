@@ -106,34 +106,34 @@ class SecondViewController: UIViewController {
             while weight > 0 {
                 if platesLoaded < 7 {
                     print(weight)
-                    if weight >= 50 {
+                    if weight >= 50 && kgAvailability[0] {
                         weight -= 50
                         updateBar(withImage: "25KG Side", atIndex: platesLoaded)
-                    } else if weight < 50 && weight >= 40 {
+                    } else if ((weight < 50 && weight >= 40) || (weight >= 50 && !kgAvailability[0])) && kgAvailability[1] {
                         weight -= 40
                         updateBar(withImage: "20KG Side", atIndex: platesLoaded)
-                    } else if weight < 40 && weight >= 30 {
+                    } else if ((weight < 40 && weight >= 30) || (weight >= 40 && !kgAvailability[1])) && kgAvailability[2] {
                         weight -= 30
                         updateBar(withImage: "15KG Side", atIndex: platesLoaded)
-                    } else if weight < 30 && weight >= 20 {
+                    } else if ((weight < 30 && weight >= 20) || (weight >= 30 && !kgAvailability[2])) && kgAvailability[3]{
                         weight -= 20
                         updateBar(withImage: "10KG Side", atIndex: platesLoaded)
-                    } else if weight < 20 && weight >= 10 {
+                    } else if ((weight < 20 && weight >= 10) || (weight >= 20 && !kgAvailability[3])) && kgAvailability[4] {
                         weight -= 10
                         updateBar(withImage: "5KG Side", atIndex: platesLoaded)
-                    } else if weight < 10 && weight >= 5 {
+                    } else if ((weight < 10 && weight >= 5) || (weight >= 10 && !kgAvailability[4])) && kgAvailability[5] {
                         weight -= 5
                         updateBar(withImage: "2.5KG Side", atIndex: platesLoaded)
-                    } else if weight < 5 && weight >= 4 {
+                    } else if ((weight < 5 && weight >= 4) || (weight >= 5 && !kgAvailability[5])) && kgAvailability[6] {
                         weight -= 4
                         updateBar(withImage: "2KG Side", atIndex: platesLoaded)
-                    } else if weight < 4 && weight >= 3 {
+                    } else if ((weight < 4 && weight >= 3) || (weight >= 4 && !kgAvailability[6])) && kgAvailability[7] {
                         weight -= 3
                         updateBar(withImage: "1.5KG Side", atIndex: platesLoaded)
-                    } else if weight < 3 && weight >= 2 {
+                    } else if ((weight < 3 && weight >= 2) || (weight >= 3 && !kgAvailability[7])) && kgAvailability[8] {
                         weight -= 2
                         updateBar(withImage: "1KG Side", atIndex: platesLoaded)
-                    } else if weight < 2 && weight >= 1 {
+                    } else if ((weight < 2 && weight >= 1) || (weight >= 2 && !kgAvailability[8])) && kgAvailability[9] {
                         weight -= 1
                         updateBar(withImage: "0.5KG Side", atIndex: platesLoaded)
                     } else {
@@ -162,28 +162,28 @@ class SecondViewController: UIViewController {
             while weight > 0 {
                 if platesLoaded < 7 {
                     print(weight)
-                    if weight > 110 {
+                    if weight >= 110 && lbsAvailability[0] {
                         weight -= 110
                         updateBar(withImage: "55LB Side", atIndex: platesLoaded)
-                    } else if weight < 110 && weight >= 90 {
+                    } else if ((weight < 110 && weight >= 90) || (weight >= 110 && !lbsAvailability[0])) && lbsAvailability[1] {
                         weight -= 90
                         updateBar(withImage: "45LB Side", atIndex: platesLoaded)
-                    } else if weight < 90 && weight >= 70 {
+                    } else if ((weight < 90 && weight >= 70) || (weight >= 90 && !lbsAvailability[1])) && lbsAvailability[2]  {
                         weight -= 70
                         updateBar(withImage: "35LB Side", atIndex: platesLoaded)
-                    } else if weight < 70 && weight >= 50 {
+                    } else if ((weight < 70 && weight >= 50) || (weight >= 70 && !lbsAvailability[2])) && lbsAvailability[3] {
                         weight -= 50
                         updateBar(withImage: "25LB Side", atIndex: platesLoaded)
-                    } else if weight < 50 && weight >= 20 {
+                    } else if ((weight < 50 && weight >= 20) || (weight >= 50 && !lbsAvailability[3])) && lbsAvailability[4] {
                         weight -= 20
-                        updateBar(withImage: "20LB Side", atIndex: platesLoaded)
-                    } else if weight < 20 && weight >= 10 {
+                        updateBar(withImage: "10LB Side", atIndex: platesLoaded)
+                    } else if ((weight < 20 && weight >= 10) || (weight >= 20 && !lbsAvailability[4])) && lbsAvailability[5] {
                         weight -= 10
                         updateBar(withImage: "5LB Side", atIndex: platesLoaded)
-                    } else if weight < 10 && weight >= 5 {
+                    } else if ((weight < 10 && weight >= 5) || (weight >= 10 && !lbsAvailability[5])) && lbsAvailability[6] {
                         weight -= 5
                         updateBar(withImage: "2.5LB Side", atIndex: platesLoaded)
-                    } else if weight < 5 && weight >= 2.5 {
+                    } else if ((weight < 5 && weight >= 2.5) || (weight >= 5 && !lbsAvailability[6])) && lbsAvailability[7] {
                         weight -= 2.5
                         updateBar(withImage: "1.25LB Side", atIndex: platesLoaded)
                     } else {
@@ -199,6 +199,7 @@ class SecondViewController: UIViewController {
                     return
                 }
             }
+            print("\(weight) still")
             
         }
         

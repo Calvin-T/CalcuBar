@@ -1036,41 +1036,6 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="70" id="b1q-PX-l8F">
-                                        <rect key="frame" x="0.0" y="560" width="375" height="70"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="b1q-PX-l8F" id="hX1-GA-iTN">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="69.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MXg-Bc-UvC">
-                                                    <rect key="frame" x="318" y="19.5" width="51" height="31"/>
-                                                </switch>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="55LB Plate" translatesAutoresizingMaskIntoConstraints="NO" id="g7s-tU-Z21">
-                                                    <rect key="frame" x="16" y="7.5" width="55" height="55"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="55" id="I42-Ky-pbr"/>
-                                                        <constraint firstAttribute="height" constant="55" id="rcC-Oi-6ZB"/>
-                                                    </constraints>
-                                                </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="55 LBS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lJb-eS-VED">
-                                                    <rect key="frame" x="79" y="23" width="65" height="24"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="lJb-eS-VED" firstAttribute="centerY" secondItem="hX1-GA-iTN" secondAttribute="centerY" id="0zR-HR-jZ6"/>
-                                                <constraint firstItem="MXg-Bc-UvC" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="lJb-eS-VED" secondAttribute="trailing" constant="8" symbolic="YES" id="5s5-HL-itX"/>
-                                                <constraint firstItem="MXg-Bc-UvC" firstAttribute="centerY" secondItem="hX1-GA-iTN" secondAttribute="centerY" id="Fvm-FU-TTo"/>
-                                                <constraint firstItem="g7s-tU-Z21" firstAttribute="leading" secondItem="hX1-GA-iTN" secondAttribute="leading" constant="16" id="RhT-vo-nx2"/>
-                                                <constraint firstItem="g7s-tU-Z21" firstAttribute="centerY" secondItem="hX1-GA-iTN" secondAttribute="centerY" id="bMG-x3-joH"/>
-                                                <constraint firstItem="lJb-eS-VED" firstAttribute="leading" secondItem="g7s-tU-Z21" secondAttribute="trailing" constant="8" id="e01-5J-YMW"/>
-                                                <constraint firstAttribute="trailing" secondItem="MXg-Bc-UvC" secondAttribute="trailing" constant="8" id="mGv-zC-5bM"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>

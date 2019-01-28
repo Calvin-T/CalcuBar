@@ -19,14 +19,14 @@ class SettingsTableViewController: UITableViewController {
         super.viewDidLoad()
         
         if lbsSwitches != nil {
-            for i in 0..<lbsAvailability.count {
-                lbsSwitches[i].setOn(lbsAvailability[i], animated: false)
+            for lbsSwitch in lbsSwitches {
+                lbsSwitch.isOn = lbsAvailability[lbsSwitch.tag]
             }
         }
         
         if kgSwitches != nil {
-            for i in 0..<kgAvailability.count {
-                kgSwitches[i].setOn(kgAvailability[i], animated: false)
+            for kgSwitch in kgSwitches {
+                kgSwitch.isOn = kgAvailability[kgSwitch.tag]
             }
         }
         
@@ -39,6 +39,8 @@ class SettingsTableViewController: UITableViewController {
         
         lbsAvailability[sender.tag] = !lbsAvailability[sender.tag]
         defaults.set(lbsAvailability, forKey: "lbsSettingsArray")
+        
+        print("CAHNGED: \(lbsAvailability)")
         
     }
     

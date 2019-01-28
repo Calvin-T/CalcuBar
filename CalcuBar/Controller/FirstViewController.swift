@@ -51,6 +51,7 @@ class FirstViewController: UIViewController {
         lbsAvailability = defaults.object(forKey: "lbsSettingsArray") as? [Bool] ?? [true,true,true,true,true,true,true,true]
         kgAvailability = defaults.object(forKey: "kgSettingsArray") as? [Bool] ?? [true,true,true,true,true,true,true,true,true,true]
         
+        
     }
 
     @IBAction func unitChanged(_ sender: Any) {
